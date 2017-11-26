@@ -1,0 +1,11 @@
+framework module MMDSceneKit_macOS {
+  umbrella header "MMDSceneKit_macOS.h"
+
+  export *
+  module * { export * }
+}
+
+module MMDSceneKit_macOS.Swift {
+    header "MMDSceneKit_macOS-Swift.h"
+    requires objc
+}

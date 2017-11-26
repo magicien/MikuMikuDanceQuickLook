@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDCA18131FCB674E00DCCB82 /* GenerateThumbnailForURL.m in Sources */ = {isa = PBXBuildFile; fileRef = DDCA18121FCB674E00DCCB82 /* GenerateThumbnailForURL.m */; };
+		DDCA18151FCB674E00DCCB82 /* GeneratePreviewForURL.m in Sources */ = {isa = PBXBuildFile; fileRef = DDCA18141FCB674E00DCCB82 /* GeneratePreviewForURL.m */; };
+		DDCA18171FCB674E00DCCB82 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = DDCA18161FCB674E00DCCB82 /* main.c */; };
+		DDCA18231FCB699300DCCB82 /* MMDSceneKit_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDCA18221FCB699300DCCB82 /* MMDSceneKit_macOS.framework */; };
+		DDCA18241FCB69A600DCCB82 /* MMDSceneKit_macOS.framework in Resources */ = {isa = PBXBuildFile; fileRef = DDCA18221FCB699300DCCB82 /* MMDSceneKit_macOS.framework */; };
+		DDCA182B1FCB6DED00DCCB82 /* CreateSnapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = DDCA18291FCB6DEC00DCCB82 /* CreateSnapshot.m */; };
+		DDCA182C1FCB6DED00DCCB82 /* CreateSnapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA182A1FCB6DEC00DCCB82 /* CreateSnapshot.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DDCA180F1FCB674E00DCCB82 /* MikuMikuDanceQuickLook.qlgenerator */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MikuMikuDanceQuickLook.qlgenerator; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDCA18121FCB674E00DCCB82 /* GenerateThumbnailForURL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenerateThumbnailForURL.m; sourceTree = "<group>"; };
+		DDCA18141FCB674E00DCCB82 /* GeneratePreviewForURL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeneratePreviewForURL.m; sourceTree = "<group>"; };
+		DDCA18161FCB674E00DCCB82 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		DDCA18181FCB674E00DCCB82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDCA18221FCB699300DCCB82 /* MMDSceneKit_macOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MMDSceneKit_macOS.framework; sourceTree = "<group>"; };
+		DDCA18291FCB6DEC00DCCB82 /* CreateSnapshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateSnapshot.m; sourceTree = "<group>"; };
+		DDCA182A1FCB6DEC00DCCB82 /* CreateSnapshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateSnapshot.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDCA180B1FCB674E00DCCB82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDCA18231FCB699300DCCB82 /* MMDSceneKit_macOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDCA18051FCB674E00DCCB82 = {
+			isa = PBXGroup;
+			children = (
+				DDCA181E1FCB676700DCCB82 /* Frameworks */,
+				DDCA18111FCB674E00DCCB82 /* MikuMikuDanceQuickLook */,
+				DDCA18101FCB674E00DCCB82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDCA18101FCB674E00DCCB82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDCA180F1FCB674E00DCCB82 /* MikuMikuDanceQuickLook.qlgenerator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDCA18111FCB674E00DCCB82 /* MikuMikuDanceQuickLook */ = {
+			isa = PBXGroup;
+			children = (
+				DDCA182A1FCB6DEC00DCCB82 /* CreateSnapshot.h */,
+				DDCA18291FCB6DEC00DCCB82 /* CreateSnapshot.m */,
+				DDCA18121FCB674E00DCCB82 /* GenerateThumbnailForURL.m */,
+				DDCA18141FCB674E00DCCB82 /* GeneratePreviewForURL.m */,
+				DDCA18161FCB674E00DCCB82 /* main.c */,
+				DDCA18181FCB674E00DCCB82 /* Info.plist */,
+			);
+			path = MikuMikuDanceQuickLook;
+			sourceTree = "<group>";
+		};
+		DDCA181E1FCB676700DCCB82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDCA18221FCB699300DCCB82 /* MMDSceneKit_macOS.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DDCA180C1FCB674E00DCCB82 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDCA182C1FCB6DED00DCCB82 /* CreateSnapshot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DDCA180E1FCB674E00DCCB82 /* MikuMikuDanceQuickLook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDCA181B1FCB674E00DCCB82 /* Build configuration list for PBXNativeTarget "MikuMikuDanceQuickLook" */;
+			buildPhases = (
+				DDCA180A1FCB674E00DCCB82 /* Sources */,
+				DDCA180B1FCB674E00DCCB82 /* Frameworks */,
+				DDCA180C1FCB674E00DCCB82 /* Headers */,
+				DDCA180D1FCB674E00DCCB82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MikuMikuDanceQuickLook;
+			productName = MikuMikuDanceQuickLook;
+			productReference = DDCA180F1FCB674E00DCCB82 /* MikuMikuDanceQuickLook.qlgenerator */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDCA18061FCB674E00DCCB82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = DarkHorse;
+				TargetAttributes = {
+					DDCA180E1FCB674E00DCCB82 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DDCA18091FCB674E00DCCB82 /* Build configuration list for PBXProject "MikuMikuDanceQuickLook" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DDCA18051FCB674E00DCCB82;
+			productRefGroup = DDCA18101FCB674E00DCCB82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDCA180E1FCB674E00DCCB82 /* MikuMikuDanceQuickLook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDCA180D1FCB674E00DCCB82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDCA18241FCB69A600DCCB82 /* MMDSceneKit_macOS.framework in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDCA180A1FCB674E00DCCB82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDCA18131FCB674E00DCCB82 /* GenerateThumbnailForURL.m in Sources */,
+				DDCA18151FCB674E00DCCB82 /* GeneratePreviewForURL.m in Sources */,
+				DDCA18171FCB674E00DCCB82 /* main.c in Sources */,
+				DDCA182B1FCB6DED00DCCB82 /* CreateSnapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DDCA18191FCB674E00DCCB82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DDCA181A1FCB674E00DCCB82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DDCA181C1FCB674E00DCCB82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = EF37D6UQZ9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = MikuMikuDanceQuickLook/Info.plist;
+				INSTALL_PATH = /Library/QuickLook;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks/ @loader_path/../Resources/";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.0spec.MikuMikuDanceQuickLook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = qlgenerator;
+			};
+			name = Debug;
+		};
+		DDCA181D1FCB674E00DCCB82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = EF37D6UQZ9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = MikuMikuDanceQuickLook/Info.plist;
+				INSTALL_PATH = /Library/QuickLook;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks/ @loader_path/../Resources/";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.0spec.MikuMikuDanceQuickLook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = qlgenerator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDCA18091FCB674E00DCCB82 /* Build configuration list for PBXProject "MikuMikuDanceQuickLook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDCA18191FCB674E00DCCB82 /* Debug */,
+				DDCA181A1FCB674E00DCCB82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDCA181B1FCB674E00DCCB82 /* Build configuration list for PBXNativeTarget "MikuMikuDanceQuickLook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDCA181C1FCB674E00DCCB82 /* Debug */,
+				DDCA181D1FCB674E00DCCB82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDCA18061FCB674E00DCCB82 /* Project object */;
+}
